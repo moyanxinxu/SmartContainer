@@ -66,3 +66,4 @@ ds = Dataset.from_list(ls_train)
 ds = ds.train_test_split(test_size=0.2)
 
 ds.save_to_disk("./data/container")
+# ds.push_to_hub("moyanxinxu/container")
